@@ -18,7 +18,7 @@ namespace SWMGApp.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult SWMG()
         {
             return View();
         }

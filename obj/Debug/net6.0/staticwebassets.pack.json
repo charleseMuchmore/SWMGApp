@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\SWMGApp.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\orion\\Desktop\\CS295N\\SWMGApp\\wwwroot\\Img\\HomePage.png",
+      "PackagePath": "staticwebassets\\Img\\HomePage.png"
+    },
+    {
       "Id": "C:\\Users\\orion\\Desktop\\CS295N\\SWMGApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
