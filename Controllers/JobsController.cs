@@ -4,7 +4,7 @@ namespace SWMGApp.Controllers
 {
     public class JobsController : Controller
     {
-        public IActionResult Jobs()
+        public IActionResult Index()
         {
             return View();
         }

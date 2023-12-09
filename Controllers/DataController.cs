@@ -4,7 +4,7 @@ namespace SWMGApp.Controllers
 {
     public class DataController : Controller
     {
-        public IActionResult Data()
+        public IActionResult Index()
         {
             return View();
         }

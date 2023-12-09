@@ -16,8 +16,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\orion\Desktop\CS295N\SWMGApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/orion/Desktop/CS295N/SWMGApp/Views/Data/Data.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YVxEYXRhLmNzaHRtbA==
+[C:/Users/orion/Desktop/CS295N/SWMGApp/Views/Data/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/orion/Desktop/CS295N/SWMGApp/Views/Home/Help.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIZWxwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/orion/Desktop/CS295N/SWMGApp/Views/Home/Index.cshtml]
@@ -28,8 +32,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTV01HLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/orion/Desktop/CS295N/SWMGApp/Views/Jobs/Jobs.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ic1xKb2JzLmNzaHRtbA==
+[C:/Users/orion/Desktop/CS295N/SWMGApp/Views/Jobs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ic1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/orion/Desktop/CS295N/SWMGApp/Views/Shared/Error.cshtml]
