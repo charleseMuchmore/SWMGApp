@@ -25,3 +25,7 @@ body {
 .SWMG {
     background: src("~/files/SWMG.jpg");
 }
+.newsletter {
+    background: rgb(200,17,17);
+    background: linear-gradient(180deg, rgba(200,17,17,1) 0%, rgba(214,46,21,1) 44%, rgba(200,80,29,1) 68%, rgba(255,154,0,1) 100%);
+}
