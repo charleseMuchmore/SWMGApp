@@ -18,19 +18,15 @@ namespace SWMGApp.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult SWMG()
         {
             return View();
         }
-        public IActionResult Data()
+        public IActionResult Help()
         {
             return View();
         }
-        public IActionResult Jobs() 
-        { 
-            return View();
-        }
-
+      
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/l3exXR5O4AG8XjyW1p4Wgv7hHrHxgz7kZHkGT4FkeY=",
+  "Hash": "is4t24dtns00Vbx/cefjFgmiZ8MRdVIoCd45R2nST18=",
   "Source": "SWMGApp",
   "BasePath": "_content/SWMGApp",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\orion\\Desktop\\CS295N\\SWMGApp\\wwwroot\\Img\\HomePage.png",
+      "SourceId": "SWMGApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\orion\\Desktop\\CS295N\\SWMGApp\\wwwroot\\",
+      "BasePath": "_content/SWMGApp",
+      "RelativePath": "Img/HomePage.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\HomePage.png"
     },
     {
       "Identity": "C:\\Users\\orion\\Desktop\\CS295N\\SWMGApp\\wwwroot\\js\\site.js",

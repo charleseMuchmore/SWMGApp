@@ -16,6 +16,9 @@ html {
 body {
   margin-bottom: 60px;
 }
-.nav-item:hover{
-    font-size: larger;
+
+.nav-item{
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
 }
