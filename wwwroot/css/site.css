@@ -22,3 +22,6 @@ body {
     padding: 5px;
     width: 150px;
 }
+.SWMG {
+    background: src("~/files/SWMG.jpg");
+}

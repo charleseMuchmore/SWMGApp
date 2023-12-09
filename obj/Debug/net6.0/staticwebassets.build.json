@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "is4t24dtns00Vbx/cefjFgmiZ8MRdVIoCd45R2nST18=",
+  "Hash": "lzN4VACFEVHxo1/TF1JU1chvB1s6SjXq4RKXxpTVT2o=",
   "Source": "SWMGApp",
   "BasePath": "_content/SWMGApp",
   "Mode": "Default",
@@ -85,12 +85,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\orion\\Desktop\\CS295N\\SWMGApp\\wwwroot\\Img\\HomePage.png",
+      "Identity": "C:\\Users\\orion\\Desktop\\CS295N\\SWMGApp\\wwwroot\\files\\ShadowWizardMoneyGang.mp4",
       "SourceId": "SWMGApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\orion\\Desktop\\CS295N\\SWMGApp\\wwwroot\\",
       "BasePath": "_content/SWMGApp",
-      "RelativePath": "Img/HomePage.png",
+      "RelativePath": "files/ShadowWizardMoneyGang.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,7 +99,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Img\\HomePage.png"
+      "OriginalItemSpec": "wwwroot\\files\\ShadowWizardMoneyGang.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\orion\\Desktop\\CS295N\\SWMGApp\\wwwroot\\files\\SWMG.jpg",
+      "SourceId": "SWMGApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\orion\\Desktop\\CS295N\\SWMGApp\\wwwroot\\",
+      "BasePath": "_content/SWMGApp",
+      "RelativePath": "files/SWMG.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\SWMG.jpg"
     },
     {
       "Identity": "C:\\Users\\orion\\Desktop\\CS295N\\SWMGApp\\wwwroot\\js\\site.js",

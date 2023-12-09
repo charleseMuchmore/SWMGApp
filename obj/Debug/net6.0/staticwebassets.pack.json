@@ -5,16 +5,20 @@
       "PackagePath": "staticwebassets\\SWMGApp.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\orion\\Desktop\\CS295N\\SWMGApp\\wwwroot\\Img\\HomePage.png",
-      "PackagePath": "staticwebassets\\Img\\HomePage.png"
-    },
-    {
       "Id": "C:\\Users\\orion\\Desktop\\CS295N\\SWMGApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\orion\\Desktop\\CS295N\\SWMGApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\orion\\Desktop\\CS295N\\SWMGApp\\wwwroot\\files\\SWMG.jpg",
+      "PackagePath": "staticwebassets\\files\\SWMG.jpg"
+    },
+    {
+      "Id": "C:\\Users\\orion\\Desktop\\CS295N\\SWMGApp\\wwwroot\\files\\ShadowWizardMoneyGang.mp4",
+      "PackagePath": "staticwebassets\\files\\ShadowWizardMoneyGang.mp4"
     },
     {
       "Id": "C:\\Users\\orion\\Desktop\\CS295N\\SWMGApp\\wwwroot\\js\\site.js",
