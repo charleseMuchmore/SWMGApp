@@ -22,6 +22,11 @@ namespace SWMGApp.Controllers
         {
             return View();
         }
+
+        public IActionResult NewsLetter()
+        {
+            return View();
+        }
         public IActionResult Help()
         {
             return View();
