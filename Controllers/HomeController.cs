@@ -26,7 +26,7 @@ namespace SWMGApp.Controllers
         {
             return View();
         }
-        public IActionResult Job() 
+        public IActionResult Jobs() 
         { 
             return View();
         }
