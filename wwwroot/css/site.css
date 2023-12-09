@@ -16,3 +16,6 @@ html {
 body {
   margin-bottom: 60px;
 }
+.nav-item:hover{
+    font-size: larger;
+}
