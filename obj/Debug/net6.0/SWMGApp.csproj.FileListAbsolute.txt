@@ -29,3 +29,46 @@ C:\Users\orion\Desktop\CS295N\SWMGApp\obj\Debug\net6.0\refint\SWMGApp.dll
 C:\Users\orion\Desktop\CS295N\SWMGApp\obj\Debug\net6.0\SWMGApp.pdb
 C:\Users\orion\Desktop\CS295N\SWMGApp\obj\Debug\net6.0\SWMGApp.genruntimeconfig.cache
 C:\Users\orion\Desktop\CS295N\SWMGApp\obj\Debug\net6.0\ref\SWMGApp.dll
+C:\Buiness\New folder\SWMGApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Buiness\New folder\SWMGApp\bin\Debug\net6.0\appsettings.json
+C:\Buiness\New folder\SWMGApp\bin\Debug\net6.0\SWMGApp.staticwebassets.runtime.json
+C:\Buiness\New folder\SWMGApp\bin\Debug\net6.0\SWMGApp.exe
+C:\Buiness\New folder\SWMGApp\bin\Debug\net6.0\SWMGApp.deps.json
+C:\Buiness\New folder\SWMGApp\bin\Debug\net6.0\SWMGApp.runtimeconfig.json
+C:\Buiness\New folder\SWMGApp\bin\Debug\net6.0\SWMGApp.dll
+C:\Buiness\New folder\SWMGApp\bin\Debug\net6.0\SWMGApp.pdb
+C:\Buiness\New folder\SWMGApp\bin\Debug\net6.0\Humanizer.dll
+C:\Buiness\New folder\SWMGApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Buiness\New folder\SWMGApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Buiness\New folder\SWMGApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Buiness\New folder\SWMGApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Buiness\New folder\SWMGApp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Buiness\New folder\SWMGApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Buiness\New folder\SWMGApp\bin\Debug\net6.0\MySqlConnector.dll
+C:\Buiness\New folder\SWMGApp\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Buiness\New folder\SWMGApp\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\SWMGApp.csproj.AssemblyReference.cache
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\SWMGApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\SWMGApp.AssemblyInfoInputs.cache
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\SWMGApp.AssemblyInfo.cs
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\SWMGApp.csproj.CoreCompileInputs.cache
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\SWMGApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\SWMGApp.RazorAssemblyInfo.cache
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\SWMGApp.RazorAssemblyInfo.cs
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\staticwebassets\msbuild.SWMGApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\staticwebassets\msbuild.build.SWMGApp.props
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SWMGApp.props
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SWMGApp.props
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\scopedcss\bundle\SWMGApp.styles.css
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\scopedcss\projectbundle\SWMGApp.bundle.scp.css
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\SWMGApp.csproj.CopyComplete
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\SWMGApp.dll
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\refint\SWMGApp.dll
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\SWMGApp.pdb
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\SWMGApp.genruntimeconfig.cache
+C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\ref\SWMGApp.dll
+C:\Buiness\New folder\SWMGApp\bin\Debug\net6.0\appsettings.Production.json
