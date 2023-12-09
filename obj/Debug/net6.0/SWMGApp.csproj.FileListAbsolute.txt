@@ -72,3 +72,15 @@ C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\SWMGApp.pdb
 C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\SWMGApp.genruntimeconfig.cache
 C:\Buiness\New folder\SWMGApp\obj\Debug\net6.0\ref\SWMGApp.dll
 C:\Buiness\New folder\SWMGApp\bin\Debug\net6.0\appsettings.Production.json
+C:\Users\orion\Desktop\CS295N\SWMGApp\bin\Debug\net6.0\appsettings.Production.json
+C:\Users\orion\Desktop\CS295N\SWMGApp\bin\Debug\net6.0\Humanizer.dll
+C:\Users\orion\Desktop\CS295N\SWMGApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\orion\Desktop\CS295N\SWMGApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\orion\Desktop\CS295N\SWMGApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\orion\Desktop\CS295N\SWMGApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\orion\Desktop\CS295N\SWMGApp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\orion\Desktop\CS295N\SWMGApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\orion\Desktop\CS295N\SWMGApp\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\orion\Desktop\CS295N\SWMGApp\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\orion\Desktop\CS295N\SWMGApp\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\orion\Desktop\CS295N\SWMGApp\obj\Debug\net6.0\SWMGApp.csproj.CopyComplete
