@@ -7,6 +7,7 @@ namespace SWMGApp.Controllers
 {
     public class JobsController : Controller
     {
+        public IWebsiteRepo repo;
         public JobsController( IWebsiteRepo r)
         {
             repo = r;
