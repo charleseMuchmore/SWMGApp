@@ -1,11 +1,12 @@
-﻿<div>
+﻿@model List<Job>
+<div>
     <h1>Job Navigator</h1>
 </div>
 
 <div>
-    <form>
-        <input type="text"/>
-        <select id="industry">
+    <form method="post">
+        <input type="text" name="job"/>
+        <select id="industry" name="industry">
             <option>Industry</option>
             <option>Bio Science</option>
             <option>Nutrition</option>
@@ -14,28 +15,29 @@
             <option>Healthcare</option>
             <option>Sports</option>
         </select>
-        <select>
+       @*  <select>
             <option>Filter</option>
             <option>heres an option</option>
             <option>heres an option</option>
-        </select>
+        </select> *@
+        <input type="submit"/>
     </form>
 </div>
-
+@foreach(var j in Model)
+{
+    <p>@j.JobName</p>
+}
 <div>
-    <table>
-        <tr>
-            <th>Job Title</th>
-            <th>Something?</th>
-            <th>Wage</th>
-        </tr>
-        <hr />
-        <tr>
-            <td>
-
-            </td>
-        </tr>
-    </table>
+    @if (Model != null) {
+        @foreach (var job in Model)
+        {
+            <div>
+                <p>@job.JobName</p>
+                <p>@job.Industry.Name</p>
+                <p>@job.AvgWage</p>
+            </div>
+        }
+    }
 </div>
 
 <div>

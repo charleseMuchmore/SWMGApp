@@ -18,6 +18,7 @@ namespace SWMGApp.Controllers
 
         public IActionResult Index()
         {
+            
             return View();
         }
 
@@ -29,6 +30,15 @@ namespace SWMGApp.Controllers
         public IActionResult NewsLetter()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Index(string email)
+        {
+            Newsletter model = new Newsletter();
+            model.Email = email;
+            repo.StoreNewsletter(model);
+            return RedirectToAction("Index");
         }
 
         [HttpPost]
@@ -48,8 +58,8 @@ namespace SWMGApp.Controllers
         {
             return View();
         }
-      
- /*       [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+
+   /*     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
