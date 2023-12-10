@@ -29,3 +29,55 @@ body {
     background: rgb(200,17,17);
     background: linear-gradient(180deg, rgba(200,17,17,1) 0%, rgba(214,46,21,1) 44%, rgba(200,80,29,1) 68%, rgba(255,154,0,1) 100%);
 }
+.clickable-picture {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    cursor: pointer;
+}
+
+    .clickable-picture img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+
+    .clickable-picture:hover img {
+        transform: scale(1.1);
+    }
+.custom-card {
+    position: relative;
+    max-width: 18rem;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.custom-h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-family: 'Bubblegum Sans', cursive;
+    color: white;
+    text-align: center; 
+}
+
+.custom-form {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center; 
+}
+
+
+.centered-text {
+    margin-top: 20px;
+}
+body {
+    background-color: black;
+    color: white;
+}
