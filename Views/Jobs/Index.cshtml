@@ -3,42 +3,58 @@
     <h1>Job Navigator</h1>
 </div>
 
-<div>
-    <form method="post">
-        <input type="text" name="job"/>
-        <select id="industry" name="industry">
-            <option>Industry</option>
-            <option>Bio Science</option>
-            <option>Nutrition</option>
-            <option>Technology</option>
-            <option>Wood Working</option>
-            <option>Healthcare</option>
-            <option>Sports</option>
-        </select>
+<div class="row g-3">
+    <form method="post"
+        <div class="form-group col-md-6">
+            <br />
+        <input type="text" name="job" />
+       
+        </div>
+       <br />
+        <div class="form-group col-md-6">
+            <select class="form-group col-md-6" id="industry" name="industry">
+                <option>Industry</option>
+                <option>Bio Science</option>
+                <option>Nutrition</option>
+                <option>Technology</option>
+                <option>Wood Working</option>
+                <option>Healthcare</option>
+                <option>Sports</option>
+            </select>
+            </div>
        @*  <select>
             <option>Filter</option>
             <option>heres an option</option>
             <option>heres an option</option>
         </select> *@
-        <input type="submit"/>
+        <br />
+        <div class="form-group col-md-6">
+        <input class="btn btn-dark" type="submit" />
+        </div>
     </form>
 </div>
-@foreach(var j in Model)
-{
-    <p>@j.JobName</p>
-}
-<div>
-    @if (Model != null) {
-        @foreach (var job in Model)
+
+        @if (Model != null)
         {
-            <div>
-                <p>@job.JobName</p>
-                <p>@job.Industry.Name</p>
-                <p>@job.AvgWage</p>
-            </div>
+            @foreach (var job in Model)
+            {
+
+                
+<div class="jobs">
+    <br>
+            <div class="card bg-light bg-gradient" style="width: 18rem; margin:2px;">
+                <div class="cardbody" style="color: black;">
+                    <h5 class="card-title list-group-item">@job.JobName</h5>
+                    <p class="card-subtitle text-secondary">@job.Industry.Name</p>
+                    <p class="card-text">Hourly Rate: @job.AvgWage/h</p>
+                    
+                </div>
+                </div>
+                </div>
+                
+            }
         }
-    }
-</div>
+
 
 <div>
     1   2   3   ...   >

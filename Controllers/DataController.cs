@@ -21,7 +21,6 @@ namespace SWMGApp.Controllers
             return View();
         }
 
-
         [HttpPost]
         public IActionResult Index(string industryType)
         {
