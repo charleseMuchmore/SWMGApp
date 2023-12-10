@@ -32,6 +32,15 @@ namespace SWMGApp.Controllers
         }
 
         [HttpPost]
+        public IActionResult Index(string email)
+        {
+            Newsletter model = new Newsletter();
+            model.Email = email;
+            repo.StoreNewsletter(model);
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
         public IActionResult Newsletter(string email)
         {
             Newsletter model = new Newsletter();
