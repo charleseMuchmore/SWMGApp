@@ -1,7 +1,7 @@
 ﻿using SWMGApp.Models;
 
 
-namespace TheboisGaming.Data
+namespace SWMGApp.Data
 {
     public class WebSiteRepo : IWebsiteRepo
     {
@@ -81,6 +81,13 @@ namespace TheboisGaming.Data
 
         public int StoreJobs(Job j) 
         {
+            dbContext.Jobs.Add(j);
+            return dbContext.SaveChanges();
+        }
+
+        public int StoreJobs(int id)
+        {
+            Job j = dbContext.Jobs.Find(id);
             dbContext.Jobs.Add(j);
             return dbContext.SaveChanges();
         }

@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SWMGApp.Models;
 
-namespace TheboisGaming.Data
+namespace SWMGApp.Data
 {
     public class AppDbContext : DbContext
     {

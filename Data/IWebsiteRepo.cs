@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SWMGApp.Models;
 
-namespace TheboisGaming.Data
+namespace SWMGApp.Data
 {
     public interface IWebsiteRepo
     {
