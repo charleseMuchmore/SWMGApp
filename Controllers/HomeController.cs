@@ -59,6 +59,19 @@ namespace SWMGApp.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult Help(string name, string email, string msg)
+        {
+            Help h = new Help();
+            h.Name = name;
+            h.Email = email;
+            h.Msg = msg; 
+            h.Datetime = "123"; //this needs actually implemented to get the real datetime
+            repo.StoreHelp(h);
+            return View();
+        }
+
+
    /*     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
