@@ -2,18 +2,19 @@
 using SWMGApp.Data;
 using SWMGApp.Models;
 
+
 namespace SWMGApp.Controllers
 {
     public class JobsController : Controller
     {
-        IWebsiteRepo repo;
-        public JobsController(IWebsiteRepo r)
+        public JobsController( IWebsiteRepo r)
         {
             repo = r;
         }
         public IActionResult Index()
         {
-            return View();
+            var model = repo.GetJobs();
+            return View(model);
         }
 
         [HttpPost]

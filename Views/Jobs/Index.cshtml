@@ -23,7 +23,10 @@
         <input type="submit"/>
     </form>
 </div>
-
+@foreach(var j in Model)
+{
+    <p>@j.JobName</p>
+}
 <div>
     @if (Model != null) {
         @foreach (var job in Model)

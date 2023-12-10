@@ -8,5 +8,10 @@ namespace SWMGApp.Controllers
         {
             return View();
         }
+
+        public IActionResult Industry()
+        {
+            return View();
+        }
     }
 }
