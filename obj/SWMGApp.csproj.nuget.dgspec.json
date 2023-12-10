@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\charl\\OneDrive\\Desktop\\ProgrammingProjects\\SWMGApp\\SWMGApp.csproj": {}
+    "C:\\Buiness\\New folder\\SWMGApp\\SWMGApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\charl\\OneDrive\\Desktop\\ProgrammingProjects\\SWMGApp\\SWMGApp.csproj": {
+    "C:\\Buiness\\New folder\\SWMGApp\\SWMGApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\charl\\OneDrive\\Desktop\\ProgrammingProjects\\SWMGApp\\SWMGApp.csproj",
+        "projectUniqueName": "C:\\Buiness\\New folder\\SWMGApp\\SWMGApp.csproj",
         "projectName": "SWMGApp",
-        "projectPath": "C:\\Users\\charl\\OneDrive\\Desktop\\ProgrammingProjects\\SWMGApp\\SWMGApp.csproj",
-        "packagesPath": "C:\\Users\\charl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\charl\\OneDrive\\Desktop\\ProgrammingProjects\\SWMGApp\\obj\\",
+        "projectPath": "C:\\Buiness\\New folder\\SWMGApp\\SWMGApp.csproj",
+        "packagesPath": "C:\\Users\\alexc\\.nuget\\packages\\",
+        "outputPath": "C:\\Buiness\\New folder\\SWMGApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\charl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\alexc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

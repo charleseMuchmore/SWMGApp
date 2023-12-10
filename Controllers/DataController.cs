@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SWMGApp.Models;
 
 namespace SWMGApp.Controllers
 {
@@ -12,6 +13,12 @@ namespace SWMGApp.Controllers
         public IActionResult Industry()
         {
             return View();
+        }
+        [HttpPost]
+        public IActionResult Newsletter(string industyType)
+        {
+
+            return RedirectToAction("Index");
         }
     }
 }
