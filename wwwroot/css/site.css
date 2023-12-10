@@ -33,13 +33,16 @@ body {
     display: inline-block;
     position: relative;
     overflow: hidden;
-    margin: 10px;
+    margin: 3px;
     cursor: pointer;
 }
 
     .clickable-picture img {
-        width: 100%;
-        height: auto;
+        
+        
+width: 100%;
+height: auto;
+        
         transition: transform 0.3s ease;
     }
 
@@ -48,8 +51,7 @@ body {
     }
 .custom-card {
     position: relative;
-    max-width: 18rem;
-    margin: auto;
+    
     margin-top: 50px;
 }
 
@@ -67,6 +69,7 @@ body {
 .custom-form {
     position: absolute;
     bottom: 20px;
+    margin: 10px;
     left: 50%;
     transform: translateX(-50%);
     color: white;
