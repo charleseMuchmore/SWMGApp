@@ -1,4 +1,7 @@
-﻿<div>
+﻿@model List<Job>
+
+
+<div>
     <h1>Job Navigator</h1>
 </div>
 
@@ -21,7 +24,10 @@
         </select>
     </form>
 </div>
-
+@foreach(var j in Model)
+{
+    <p>@j.JobName</p>
+}
 <div>
     <table>
         <tr>
