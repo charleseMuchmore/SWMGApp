@@ -1,85 +1,94 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using SWMGApp.Models;
+﻿using SWMGApp.Models;
 
 
 namespace TheboisGaming.Data
 {
     public class WebSiteRepo : IWebsiteRepo
     {
+        private AppDbContext dbContext;
+
+        public WebSiteRepo(AppDbContext context)
+        {
+            dbContext = context;
+        }
         public List<Company> GetCompany()
         {
-            throw new NotImplementedException();
+            return dbContext.Companies.ToList();
         }
 
         public Company GetCompany(int id)
         {
-            throw new NotImplementedException();
+            return dbContext.Companies.Find(id);
         }
 
         public List<Help> GetEvents()
         {
-            throw new NotImplementedException();
+            return dbContext.Help.ToList();
         }
 
         public Help GetHelp(int id)
         {
-            throw new NotImplementedException();
+            return dbContext.Help.Find(id);
         }
 
         public List<Industry> GetIndustry()
         {
-            throw new NotImplementedException();
+            return dbContext.Industries.ToList();
         }
 
         public Industry GetIndustry(int id)
         {
-            throw new NotImplementedException();
+            return dbContext.Industries.Find(id);
         }
 
         public Job GetJob(int id)
         {
-            throw new NotImplementedException();
+            return dbContext.Jobs.Find(id);
         }
 
         public List<Job> GetJobs()
         {
-            throw new NotImplementedException();
+            return dbContext.Jobs.ToList();
         }
 
         public Newsletter GetNewsletter(int id)
         {
-            throw new NotImplementedException();
+            return dbContext.Newsletters.Find(id);
         }
 
         public List<Newsletter> GetNewsletters()
         {
-            throw new NotImplementedException();
+            return dbContext.Newsletters.ToList();
         }
 
         public int StoreCompany(Company company)
         {
-            throw new NotImplementedException();
+            dbContext.Companies.Add(company);
+            return dbContext.SaveChanges();
         }
 
         public int StoreHelp(Help e)
         {
-            throw new NotImplementedException();
+            dbContext.Help.Add(e);
+            return dbContext.SaveChanges();
         }
 
         public int StoreIndustry(Industry i)
         {
-            throw new NotImplementedException();
+            dbContext.Industries.Add(i);
+            return dbContext.SaveChanges();
         }
 
-        public int StoreJobs(int id)
+        public int StoreJobs(Job j) 
         {
-            throw new NotImplementedException();
+            dbContext.Jobs.Add(j);
+            return dbContext.SaveChanges();
         }
 
         public int StoreNewsletter(Newsletter i)
         {
-            throw new NotImplementedException();
+            dbContext.Newsletters.Add(i);
+            return dbContext.SaveChanges();
         }
     }
 }
