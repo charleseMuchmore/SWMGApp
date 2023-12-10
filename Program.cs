@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using System;
-using TheboisGaming.Data;
+using SWMGApp.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
