@@ -18,6 +18,7 @@ namespace SWMGApp.Controllers
 
         public IActionResult Index()
         {
+            
             return View();
         }
 
