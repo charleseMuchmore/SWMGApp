@@ -1,4 +1,5 @@
 ﻿using SWMGApp.Models;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace SWMGApp.Data
@@ -48,7 +49,9 @@ namespace SWMGApp.Data
 
         public List<Job> GetJobs()
         {
-            return dbContext.Jobs.ToList();
+            return dbContext.Jobs.Include(m => m.Industry).ToList();
+
+
         }
 
         public Newsletter GetNewsletter(int id)
