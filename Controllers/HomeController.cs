@@ -1,16 +1,19 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using SWMGApp.Data;
 using SWMGApp.Models;
-using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace SWMGApp.Controllers
 {
     public class HomeController : Controller
     {
+        IWebsiteRepo repo;
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IWebsiteRepo r)
         {
             _logger = logger;
+            repo = r;
         }
 
         public IActionResult Index()
@@ -26,6 +29,15 @@ namespace SWMGApp.Controllers
         public IActionResult NewsLetter()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Newsletter(string email)
+        {
+            Newsletter model = new Newsletter();
+            model.Email = email;
+            repo.StoreNewsletter(model);
+            return RedirectToAction("Index");
         }
 
         public IActionResult About()
